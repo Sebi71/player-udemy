@@ -1,0 +1,15 @@
+.next-btn {
+    width: 36px;
+    height: 36px; 
+    margin-left: 16px; 
+    background-color: #718096; 
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .next-btn-img {
+        width: 20px;
+        height: 20px;
+    }
+}

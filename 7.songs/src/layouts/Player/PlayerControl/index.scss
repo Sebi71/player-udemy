@@ -1,0 +1,40 @@
+.player-control-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 5px; 
+    border-top-width: 2px;
+    border-top-color: #4b5563; 
+    padding: 25px; 
+    background-image: linear-gradient(to right, #e0e7ff, #9b5de5);
+
+    .player-control-info {
+        max-width: 800px; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8px;
+
+        .title-song {
+            font-size: 20px; 
+            color: #1e293b;
+            font-weight: 600;
+        }
+
+        .info-song-content {
+            display: flex;
+            justify-content: space-between;
+
+            .info-song {
+                font-size: 18px;
+                color: #1a202c; 
+            }
+        }
+    }
+
+    .btn-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}

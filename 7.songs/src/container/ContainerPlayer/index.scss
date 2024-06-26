@@ -1,0 +1,20 @@
+.global-container  {
+    background-color: #142557;
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-top: 50px; 
+    min-height: 100vh; 
+
+    .player-container {
+        margin-left: auto;
+        margin-right: auto; 
+        max-width: 575px; 
+
+        .player-title {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+    
+}

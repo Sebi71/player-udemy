@@ -1,0 +1,15 @@
+.previous-btn {
+    width: 36px;
+    height: 36px; 
+    margin-right: 16px; 
+    background-color: #718096; 
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .previous-btn-img {
+        width: 20px;
+        height: 20px;
+    }
+}

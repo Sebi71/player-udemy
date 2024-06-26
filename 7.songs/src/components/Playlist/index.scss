@@ -1,0 +1,18 @@
+.playlist-container {
+    margin-top: 15px;
+    padding-bottom: 300px;
+
+    .playlist {
+        padding: 10px; 
+        font-weight: 600;
+        background-color: #e0e7ff; 
+        color: #142557; 
+        margin-bottom: 12px; 
+        border-radius: 5px; 
+        cursor: pointer;
+
+        &:hover {
+            background-color: #c7d2fe;
+        }
+    }
+}
